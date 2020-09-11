@@ -14,6 +14,10 @@ Load and reconsile data:
 
 `docker-compose run --rm app python manage.py load_works ./data/works_metadata.csv`
 
+Query API
+
+`curl -X GET "http://localhost:8001/music-works?iswc=T0046951705"`
+
 ## Q&A
 
 > Describe briefly the matching and reconciling method chosen.
